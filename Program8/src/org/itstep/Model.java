@@ -43,7 +43,7 @@ public class Model {
 	}
 
 	public String inputWordByScanerWord1(String word1) {
-		if (word1.equals("")) { // Имя студента
+		if (word1.equals("Anastasiia")) { // Имя студента
 			String correctWord = word1;
 			return correctWord;
 		} else {
@@ -52,7 +52,7 @@ public class Model {
 	}
 	
 	public String inputWordByScanerWord2(String word2) {
-		if (word2.equals("")) { // Фамилия студента
+		if (word2.equals("Lunova")) { // Фамилия студента
 			String correctWord = word2;
 			return correctWord;
 		} else {
